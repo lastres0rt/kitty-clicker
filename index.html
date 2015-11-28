@@ -3,18 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <title>Kitty Clicker</title>
-    <style>
-    	* { padding: 0; margin: 0; }
-    	canvas { background: #eee; display: block; margin: 0 auto; }
-    </style>
+
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
 </head>
 <body>
 
-<canvas id="myCanvas" width="480" height="320"></canvas>
 
-<script>
-	// JavaScript code goes here
-</script>
+
+<button id="kitty" type="button">Kitty</button>
+<div id="counter"><div>
+
+    <script>
+    $(document).ready(function() {
+
+        $('#kitty').click(function() {
+            $('#counter').html(function(i, val) { return val*1+1 });
+        });
+
+    });
+
+    </script>
 
 </body>
 </html>
