@@ -13,14 +13,25 @@
 
 
 
-<button id="kitty" type="button">Kitty</button>
+<button id="kitty2" type="button">Kitty name: Frisky</button>
+<div id="counter2"><div>
+
+
+<button id="kitty" type="button">Kitty name: Mixpy</button>
 <div id="counter"><div>
+
+<hr>
+
 
     <script>
     $(document).ready(function() {
 
         $('#kitty').click(function() {
             $('#counter').html(function(i, val) { return val*1+1 });
+        });
+
+        $('#kitty2').click(function() {
+            $('#counter2').html(function(i, val) { return val*1+1 });
         });
 
     });
