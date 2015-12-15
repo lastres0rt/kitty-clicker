@@ -3,30 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>Kitty Clicker</title>
-
-
-    <script async src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script async src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script async src="js/main.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
-    <div class="controls">
-        <button class="add-kitty">New Kitty</button>
+    <ul id="kitty-list"></ul>
+    <div id="kitty">
+        <h2 id="kitty-name"></h2>
+        <div id="kitty-count"></div>
+        <img id="kitty-img" src="" alt="You're a kitty!">
     </div>
-
-    <ul></ul>
-
-    <script type="text/template" data-template="kitty">
-        <li class="kitty" data-id="{{id}}">
-            {{id}}
-            <div class="kitty-controls">
-                <a href="#" class="remove-kitty">X</a>
-            </div>
-        </li>
-    </script>
-
+    <script src="js/main.js"></script>
 </body>
 </html>
