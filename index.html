@@ -13,32 +13,19 @@
 
 </head>
 <body>
+    <div class="controls">
+        <button class="add-kitty">New Kitty</button>
+    </div>
 
+    <ul></ul>
 
-
-<button id="kitty2" type="button">Kitty name: Frisky</button>
-<div id="counter2"><div>
-
-
-<button id="kitty" type="button">Kitty name: Mixpy</button>
-<div id="counter"><div>
-
-<hr>
-
-
-    <script>
-    $(document).ready(function() {
-
-        $('#kitty').click(function() {
-            $('#counter').html(function(i, val) { return val*1+1 });
-        });
-
-        $('#kitty2').click(function() {
-            $('#counter2').html(function(i, val) { return val*1+1 });
-        });
-
-    });
-
+    <script type="text/template" data-template="kitty">
+        <li class="kitty" data-id="{{id}}">
+            {{id}}
+            <div class="kitty-controls">
+                <a href="#" class="remove-kitty">X</a>
+            </div>
+        </li>
     </script>
 
 </body>
