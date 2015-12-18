@@ -1,3 +1,19 @@
 #kitty-img{
 	max-width: 100%;
 }
+
+li {
+
+    background-color: #92c5eb;
+    margin: 3px;
+    padding: 8px;
+    float: left;
+    list-style: none;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: #aaa;
+}
+
+#kitty-list {
+	    height: 32px;
+}
