@@ -35,6 +35,7 @@ var octopus = {
 		data.currentKitty = data.kitties[0];
 		kittyListView.init();
 		kittyView.init();
+		adminView.init();
 	},
 
 	getCurrentKitty: function() {
@@ -106,4 +107,29 @@ var kittyListView = {
 		}
 	}
 }
+
+var adminView = {
+	init: function() {
+		this.adminModeElem = document.getElementById('admin-mode');
+		this.adminElem = document.getElementById('admin');
+		this.cancelElem = document.getElementById('cancel');
+		this.saveElem = document.getElementById('save');
+
+		this.adminElem.addEventListener('click', function(){
+			if (document.getElementById('admin-mode').style.visibility == "visible") {
+				document.getElementById('admin-mode').style.visibility = "hidden";
+			}
+			else {
+				document.getElementById('admin-mode').style.visibility = "visible"
+			}
+		});
+
+		this.adminModeElem.style.visibility = "hidden";
+ 	},
+
+	render: function() {
+
+	}
+}
+
 octopus.init();
