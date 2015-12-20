@@ -1,3 +1,7 @@
+body {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
 #kitty-img{
 	max-width: 100%;
 }
@@ -12,8 +16,11 @@ li {
     border-width: 0 0 0 0;
     border-style: solid;
     border-color: #aaa;
+    flex-grow: 1;
+    text-align: center;
 }
 
 #kitty-list {
-	    height: 32px;
+	    display: flex;
+        padding: 0;
 }
