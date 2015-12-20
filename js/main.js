@@ -53,6 +53,14 @@ var octopus = {
 	incrementCounter: function () {
 		data.currentKitty.clickCount++;
 		kittyView.render();
+		adminView.render();
+	},
+
+	modifyKitty: function(name, clickCount, image) {
+		data.currentKitty.name = name;
+		data.currentKitty.clickCount = clickCount;
+		data.currentKitty.img = image;
+		kittyView.render();
 	}
 };
 
@@ -114,21 +122,37 @@ var adminView = {
 		this.adminElem = document.getElementById('admin');
 		this.cancelElem = document.getElementById('cancel');
 		this.saveElem = document.getElementById('save');
+		this.nameElem = document.getElementById('kitty-name-change');
+		this.clickElem = document.getElementById('kitty-click-change');
+		this.imgElem = document.getElementById('kitty-image-change');
 
 		this.adminElem.addEventListener('click', function(){
-			if (document.getElementById('admin-mode').style.visibility == "visible") {
-				document.getElementById('admin-mode').style.visibility = "hidden";
-			}
-			else {
-				document.getElementById('admin-mode').style.visibility = "visible"
-			}
+			document.getElementById('admin-mode').style.visibility = "visible"
+		});
+
+		this.cancelElem.addEventListener('click', function(){
+			document.getElementById('admin-mode').style.visibility = "hidden"
+		});
+
+		this.saveElem.addEventListener('click', function(){
+			var newKittyName = document.getElementById('kitty-name-change').value;
+			var newKittyClick = document.getElementById('kitty-click-change').value;
+			var newKittyImg = document.getElementById('kitty-image-change').value;
+			document.getElementById('admin-mode').style.visibility = "hidden"
+			octopus.modifyKitty(newKittyName, newKittyClick, newKittyImg);
 		});
 
 		this.adminModeElem.style.visibility = "hidden";
+
+		this.render();
  	},
 
 	render: function() {
+		var kitty = octopus.getCurrentKitty();
 
+		this.nameElem.value = kitty.name;
+		this.clickElem.value = kitty.clickCount;
+		this.imgElem.value = kitty.img;
 	}
 }
 
