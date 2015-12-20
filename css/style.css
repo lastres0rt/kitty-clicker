@@ -23,4 +23,5 @@ li {
 #kitty-list {
 	    display: flex;
         padding: 0;
+        margin: 2px;
 }
