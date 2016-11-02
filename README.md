@@ -9,4 +9,4 @@ Play it here: http://lastres0rt.github.io/kitty-clicker/
 
 1. Click a cat's name up top.
 2. Click the picture of the cat.
-3. Watch the kitty's number go up!
+3. Watch the kitty's number go up! 💯
