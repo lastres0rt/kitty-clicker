@@ -5,7 +5,7 @@ A small project done alongside Udacity's "JavaScript Design Patterns" course.
 
 It wasn't needed for a grade in the program, but the course did work better if I did the work alongside the lessons.
 
-Play it here: http://lastres0rt.github.io/kitty-clicker/ 👾
+🕹 Play it here: http://lastres0rt.github.io/kitty-clicker/ 👾
 
 ## How it works
 
