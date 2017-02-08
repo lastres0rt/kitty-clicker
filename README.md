@@ -11,6 +11,6 @@ A simple game, in the vein of "clicker" games like Cookie Clicker and Cow Clicke
 
 ## How it works
 
-1. Click a cat's name up top. ㊔
+1. Click a cat's name up top.
 2. Click the picture of the cat. 😸
 3. Watch the kitty's number go up! 💯 ⬆️
