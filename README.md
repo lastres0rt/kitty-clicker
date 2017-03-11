@@ -16,3 +16,7 @@ This time, it's with kitties.
 1. Click a cat's name up top.
 2. Click the picture of the cat. 😸 🐈
 3. Watch the kitty's number go up! 💯 ⬆️
+
+## Recent Updates
+
+### Last Updated March 11, 2017
