@@ -11,6 +11,8 @@ This time, it's with kitties.
 
 🕹 Play it here: http://lastres0rt.github.io/kitty-clicker/ 👾
 
+![Kitty Clicker Screenshot](http://i.imgur.com/QD0ERKZ.jpg)
+
 ## How it works
 
 1. Click a cat's name up top.
