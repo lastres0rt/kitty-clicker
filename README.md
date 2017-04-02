@@ -13,7 +13,7 @@ This time, it's with kitties.
 
 ## How To Play
 
-1. Click here to open up the site: http://lastres0rt.github.io/kitty-clicker/ 👾
+1. Click here to open up the site:➡️ http://lastres0rt.github.io/kitty-clicker/ 👾
 1. Click a cat's name up top.
 2. Click the picture of the cat. 😸 🐈
 3. Watch the kitty's number go up! 💯 ⬆️
