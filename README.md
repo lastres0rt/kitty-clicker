@@ -7,7 +7,7 @@ It wasn't needed for a grade in the program, but the course did work better if I
 
 A simple game, in the vein of "clicker" games like Cookie Clicker and Cow Clicker. "Clicker" games are games where you tap on items and make the numbers go up for little reason beyond making the numbers go up. 
 
-This time, it's with kitties.
+This time, it's with kitties. 🐈
 
 ![Kitty Clicker Screenshot](http://i.imgur.com/QD0ERKZ.jpg)
 
@@ -15,7 +15,7 @@ This time, it's with kitties.
 
 1. Click here to open up the site:➡️ http://lastres0rt.github.io/kitty-clicker/ 👾
 1. Click a cat's name up top.
-2. Click the picture of the cat. 😸 🐈
+2. Click the picture of the cat. 😸 
 3. Watch the kitty's number go up! 💯 ⬆️
 
 ## Recent Updates
