@@ -3,7 +3,7 @@
 
 A small project done alongside Udacity's "JavaScript Design Patterns" course. 💠
 
-It wasn't needed for a grade in the program, but the course did work better if I did the work alongside the lessons. 📈 😅
+It wasn't needed for a grade in the program, but the course material was easier to learn if I did the suggested work alongside the lessons. 📈 😅
 
 A simple game, in the vein of "clicker" games like Cookie Clicker and Cow Clicker. "Clicker" games are games where you tap on items and make the numbers go up for little reason beyond making the numbers go up. 
 
