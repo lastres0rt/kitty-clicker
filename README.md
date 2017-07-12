@@ -7,7 +7,7 @@ It wasn't needed for a grade in the program. Still, the course material was easi
 
 Kitty Clicker is a simple game, in the vein of "clicker" games like Cookie Clicker and Cow Clicker. "Clicker" games are games where you tap on items and make the numbers go up for little reason beyond making the numbers go up. 
 
-This time, with kitties! 🐈
+This time, with kitties! 🐈 🐈 🐈
 
 ![Kitty Clicker Screenshot](http://i.imgur.com/QD0ERKZ.jpg)
 
