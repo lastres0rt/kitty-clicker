@@ -21,3 +21,9 @@ This time, with kitties! 🐈 🐈 🐈
 ## Recent Updates
 
 ### Last Updated March 11, 2017
+
+## Wishlist
+
+* Improved Polish
+* Management using Gulp
+* Animations!
