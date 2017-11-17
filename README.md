@@ -1,6 +1,8 @@
 # Kitty Clicker 🐱
 ![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
 
+![Kitty Clicker Screenshot](http://i.imgur.com/QD0ERKZ.jpg)
+
 A small project done as part of Udacity's "JavaScript Design Patterns" course. 💠 🎓
 
 It wasn't needed for a grade in the program. Still, the course material was easier to learn if I did the suggested work alongside the lessons, so... 😅
@@ -8,8 +10,6 @@ It wasn't needed for a grade in the program. Still, the course material was easi
 Kitty Clicker is a simple game in the vein of "clicker" games like Cookie Clicker and Cow Clicker. "Clicker" games are games where you tap on items and make the numbers go up for little reason beyond making the numbers go up. ⬆️ 🖱
 
 This time, with kitties! 🐈 🐈 🐈
-
-![Kitty Clicker Screenshot](http://i.imgur.com/QD0ERKZ.jpg)
 
 ## How To Play
 
