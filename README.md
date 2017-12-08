@@ -27,3 +27,4 @@ This time, with kitties! 🐈 🐈 🐈
 * Improved Polish
 * Management using Gulp
 * Animations!
+* CSS improvements
