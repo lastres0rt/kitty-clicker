@@ -28,3 +28,4 @@ This time, with kitties! 🐈 🐈 🐈
 * Management using Gulp
 * Animations!
 * CSS improvements
+* Rounded Corners!
